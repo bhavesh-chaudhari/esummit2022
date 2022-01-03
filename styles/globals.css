@@ -1,16 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;200&family=Public+Sans:wght@200;400&display=swap');
+
+html, body{
+  background: #F5FDFE;
 }
 
-a {
-  color: inherit;
+a{
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+:root{
+  --red-color: red;
 }
