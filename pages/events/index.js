@@ -10,6 +10,7 @@ const events = () => {
       </Head>
       <div className={styles["events-container"]}>
         <h1>Events</h1>
+        <p>Our Project</p>
       </div>
     </>
   );
