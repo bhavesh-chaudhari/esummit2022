@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Link from "next/link"
+import EventsTimeline from "../components/eventsTimeline/EventsTimeline"
 import styles from "../styles/Home.module.css"
 
-const Home = ()=>{
+const Home = () => {
   return (
     <>
       <Head>
@@ -16,6 +17,7 @@ const Home = ()=>{
           <Link href="/sponsors">Sponsors Page</Link>
         </div>
       </div>
+      <EventsTimeline />
     </>
   );
 }

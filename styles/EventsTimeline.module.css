@@ -1,1 +1,58 @@
 /* styles for events timeline component */
+@import url(//db.onlinewebfonts.com/c/55730af0e8c910cc0c1e03d4b2785dfe?family=MrEavesXLModOT-Bold);
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header h1 {
+  font-family: MrEavesXLModOT-Bold;
+}
+
+.header p {
+  font-family: "Public Sans", sans-serif;
+  text-decoration: underline;
+  color: #313131;
+  line-height: 28px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.timeline {
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.sub-title {
+  font-size: 13px;
+  margin-top: 1px;
+  color: #1e1e1e;
+  margin-bottom: 0px;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.card {
+  padding-top: 18%;
+}
+
+.align-right {
+  text-align: right;
+}
