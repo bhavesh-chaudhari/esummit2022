@@ -5,3 +5,7 @@
 .events-container h1{
     color: red
 }
+
+.events-container p{
+    color: green;
+}
