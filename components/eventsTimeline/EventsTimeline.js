@@ -1,8 +1,9 @@
-import { Chrono } from "react-chrono";
+import MediaQuery from 'react-responsive'
 import styles from "../../styles/EventsTimeline.module.css"
+import DesktopViewTimeline from './DesktopViewTimeline'
+import MobileViewTimeline from './MobileViewTimeline'
 
 const EventsTimeline = () => {
-
 
     return (
         <div className={styles["container"]}>
@@ -11,55 +12,12 @@ const EventsTimeline = () => {
                 <p>View Details</p>
             </div>
             <div>
-                <div className={styles["timeline"]} style={{ width: "50%", height: "100%" }}>
-                    <Chrono
-                        mode="VERTICAL_ALTERNATING"
-                        borderLessCards={true}
-                        theme={{
-                            primary: "#FCD34D",
-                            secondary: "#F59E0B",
-                            cardBgColor: "#F5FDFE",
-                            cardForeColor: "violet",
-                            titleColor: "red"
-                        }}
-                    >
-                        <div className={`${styles["card"]} ${styles["align-right"]}`}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={styles["card"]}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={`${styles["card"]} ${styles["align-right"]}`}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={styles["card"]}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={`${styles["card"]} ${styles["align-right"]}`}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={styles["card"]}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                        <div className={`${styles["card"]} ${styles["align-right"]}`}>
-                            <p className={styles["title"]}>Pitching Competition</p>
-                            <p className={styles["sub-title"]}>Minimum Viable Product</p>
-                            <p className={styles["date"]}>15/01/2022</p>
-                        </div>
-                    </Chrono>
-                </div>
+                <MediaQuery minWidth={580}>
+                    <DesktopViewTimeline />
+                </MediaQuery>
+                <MediaQuery maxWidth={580}>
+                    <MobileViewTimeline />
+                </MediaQuery>
             </div>
         </div>
     )
