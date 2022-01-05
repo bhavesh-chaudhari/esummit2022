@@ -4,56 +4,58 @@
   align-items: center;
   background:  #164E63;
   width: 100%;
-  bottom: 0;
   padding: 1rem 2rem;
-  letter-spacing: -0.02em;
 }
+
+.footer-container a{
+  color: white;
+}
+
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 80%;
+  width: 70%;
 }
 
 .esummit {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  justify-content: center;
+  align-items: flex-start;
   width: 50%;
+  transform: translate(0, -5px);
 }
 
-.presentedBy {
+.esummit-logo{
+  transform: translate(-5px, 0);
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.presentedBy .icons{
+.flex-column h4{
   color: white;
   font-size: 1.2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 200;
+  opacity: 0.9;
 }
-.presentedBy h2{
+
+.flex-column h2{
   color: white;
-  opacity: .6;
-  font-size: 1.2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.footer-container a {
-  text-decoration: none;
-}
-
-.footer-container .footer h2 {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: #ffffff;
+  opacity: 0.6;
+  font-size: 1.1rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
-
-.esummit .presentedBy .icons {
-  display: flex;
-  justify-content: space-between;
-  width: 202px;
+.flex-column p{
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.1rem;  
 }
 
 .query {
@@ -63,25 +65,27 @@
   align-items: stretch;
   width: 50%;
 }
+
 .esummit > div {
   margin: 15px 0;
 }
+
 .query > div{
   margin: 25px 0;
 }
 
 .query .square {
   display: flex;
-  width: 60%;
-  height: 25px;
-  margin-left: -20px;
-  margin-top: 5px;
+  width: 200px;
+  height: 1.2rem;
+  transform: translate(-0.6rem, 0);
 }
 
 @media screen and (max-width: 1000px) {
   .footer {
     width: 90%;
     align-items: center;
+    flex-wrap: wrap;
   }
   .query .square{
     margin-left: 0px;
@@ -89,28 +93,16 @@
   
 }
 
-@media screen and (max-width: 700px) {
-  .footer {
-    width: 100%;
+@media screen and (max-width: 620px) {
+  .footer-container{
+    justify-content: flex-start;
+  }
+  .footer{
     flex-direction: column;
-  }
-  .query .square{
-    width: 60%;
-    height: 15px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .footer-container {
-    padding: 1.5rem;
-  }
-  .footer {
     width: 100%;
+    justify-content: flex-start;
   }
-  .presentedBy .icons{
-    font-size: .8rem;
-  }
-  .presentedBy h2{
-    font-size: .8rem;
+  .query, .esummit{
+    width: 100%;
   }
 }

@@ -14,8 +14,8 @@ const Navbar = () => {
       <nav className={styles["navbar"]}>
         <div className={styles["nav-logo"]}>
           <Image
-            src="/images/navbar/navlogo.png"
-            width={186}
+            src="/logos/navlogo.png"
+            width={180}
             height={30}
           ></Image>
         </div>
