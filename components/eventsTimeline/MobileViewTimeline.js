@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 
 const MobileViewTimeline = () => {
     return (
-        <div className={styles["timeline"]} style={{ width: "50%", height: "90%" }}>
+        <div className={styles["timeline"]} style={{ width: "70%", height: "90%" }}>
             <Chrono
                 mode="VERTICAL"
                 borderLessCards={true}
