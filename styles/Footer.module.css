@@ -1,0 +1,108 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #164E63;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.footer-container a{
+  color: white;
+}
+
+.footer {
+  display: flex;
+  width: 70%;
+}
+
+.esummit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  transform: translate(0, -5px);
+}
+
+.esummit-logo{
+  transform: translate(-5px, 0);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex-column h4{
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 200;
+  opacity: 0.9;
+}
+
+.flex-column h2{
+  color: white;
+  opacity: 0.6;
+  font-size: 1.1rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.flex-column p{
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.1rem;  
+}
+
+.query {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+}
+
+.esummit > div {
+  margin: 15px 0;
+}
+
+.query > div{
+  margin: 25px 0;
+}
+
+.query .square {
+  display: flex;
+  width: 200px;
+  height: 1.2rem;
+  transform: translate(-0.6rem, 0);
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .query .square{
+    margin-left: 0px;
+  }
+  
+}
+
+@media screen and (max-width: 620px) {
+  .footer-container{
+    justify-content: flex-start;
+  }
+  .footer{
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .query, .esummit{
+    width: 100%;
+  }
+}
