@@ -1,16 +1,1 @@
 /* styles for home page */
-
-/* 
-this is temporary styling for links
-*/
-
-.temp-links a{
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-  max-width: 200px;
-}
-
-/* 
-permanent styles
-*/

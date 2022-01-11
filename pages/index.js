@@ -1,23 +1,26 @@
 import Head from "next/head";
-import Link from "next/link"
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
+import Hero from "../components/hero/Hero";
+import AboutSection from "../components/aboutSection/AboutSection";
+import aboutSectionData from "../components/aboutSection/aboutSectionData";
 
-const Home = ()=>{
+const Home = () => {
+
   return (
     <>
       <Head>
         <title>ESUMMIT 2022 | IIITN</title>
       </Head>
       <div>
-        <h1>Home</h1>
-        <div className={styles["temp-links"]}>
-          <Link href="/events">Events Page</Link>
-          <Link href="/contact">Contact Page</Link>
-          <Link href="/sponsors">Sponsors Page</Link>
-        </div>
+        <Hero></Hero>
+        {
+          aboutSectionData.map(section=>{
+            return <AboutSection key={section.id} flexDirection={section.flexDirection} heading={section.heading} para={section.para}  ></AboutSection>
+          })
+        }
       </div>
     </>
   );
-}
+};
 
-export default Home
+export default Home;
