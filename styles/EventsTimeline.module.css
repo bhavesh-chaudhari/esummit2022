@@ -1,1 +1,143 @@
 /* styles for events timeline component */
+
+.container {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem 0;
+  margin-bottom: 4rem;
+}
+
+.header h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.header p {
+  text-decoration: underline;
+  color: #313131;
+  line-height: 28px;
+  font-size: 1.3rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-timeline-content {
+  width: 50%;
+  min-width: 750px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.sub-title {
+  margin-top: 1px;
+  color: #1e1e1e;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.container :global(.vertical-item-row) > div:nth-child(3)::after {
+  width: 5px;
+  background: #FDE68A !important;
+}
+
+.container
+  :global(.vertical-item-row)
+  > div:nth-child(3)
+  > div:nth-child(1)
+  > div:nth-child(1) {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.container :global(.active)::after{
+   background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+  transform: translate(-50%, -50%) scale(1) !important;
+}
+
+/* rocket stuff */
+
+/* .container :global(.active){
+  width: 40px;
+  height: 60px;
+  background: chartreuse !important;
+}
+
+.container :global(.active)::after{
+  background: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 35px;
+  background-image: url("../public/images/timeline/rocket.svg") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: translate(-51%, -50%) scale(0.8) !important;
+} */
+
+@media screen and (max-width: 800px) {
+  .header h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .sub-title {
+    font-size: 1rem;
+  }
+  .date {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    padding-right: 0px;
+    text-align: left;
+  }
+  .sub-title {
+    margin-top: 0px;
+  }
+  .header{
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .container :global(.card-content-wrapper){
+    min-width: 300px;
+  }
+}

@@ -3,9 +3,10 @@ import styles from "../styles/Home.module.css";
 import Hero from "../components/hero/Hero";
 import AboutSection from "../components/aboutSection/AboutSection";
 import aboutSectionData from "../components/aboutSection/aboutSectionData";
+import EventsTimeline from "../components/eventsTimeline/EventsTimeline"
+
 
 const Home = () => {
-
   return (
     <>
       <Head>
@@ -19,8 +20,9 @@ const Home = () => {
           })
         }
       </div>
+      <EventsTimeline />
     </>
   );
 };
 
-export default Home;
+export default Home

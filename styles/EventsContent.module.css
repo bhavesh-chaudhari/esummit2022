@@ -1,0 +1,101 @@
+@import url(//db.onlinewebfonts.com/c/55730af0e8c910cc0c1e03d4b2785dfe?family=MrEavesXLModOT-Bold);
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.content-container {
+  width: 90%;
+  margin: auto;
+}
+
+.content-container h1 {
+  font-family: MrEavesXLModOT-Bold;
+  text-align: center;
+  color: #164e63;
+  line-height: 49px;
+  font-size: 36px;
+  margin-top: 100px;
+}
+
+.timeline-1 h1 {
+  margin-top: 50px;
+}
+
+.content-container p {
+  font-family: "Public Sans", sans-serif;
+  color: #155e75;
+  line-height: 24px;
+  font-size: 18px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.timeline-1,
+.timeline-2,
+.timeline-3 {
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+  font-family: "Public Sans", sans-serif;
+  color: #0891b2;
+}
+
+.timeline-1 p,
+.timeline-2 p,
+.timeline-3 p {
+  color: #164e63;
+  font-family: "Public Sans", sans-serif;
+  width: 70px;
+  height: 40px;
+  margin-top: 87px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.css-11bs53x-TitleWrapper.active {
+  background: pink !important;
+  color: red;
+}
+
+.chrono-icons img {
+  box-shadow: 4px 4px 10px 0px #0000004d;
+}
+
+@media only screen and (max-width: 580px) {
+  .content-container h1 {
+    line-height: 29px;
+    font-size: 28px;
+    margin-top: 80px;
+    font-weight: 400;
+  }
+  .content-container p {
+    line-height: 18px;
+    font-size: 14px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  .timeline-1,
+  .timeline-2,
+  .timeline-3 {
+    flex-direction: column;
+  }
+  .timeline-1 .para1,
+  .timeline-1 .para2,
+  .timeline-2 .para1,
+  .timeline-2 .para2,
+  .timeline-3 .para1,
+  .timeline-3 .para2 {
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    padding: 0;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
