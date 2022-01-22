@@ -16,7 +16,7 @@ const EventsContent = () => {
     return (
         <div className={styles["container"]}>
             <div className={styles["content-container"]}>
-                <h1>Pitch it to win it</h1>
+                <h1 id="details" >Pitch it to win it</h1>
                 <p>This is the main event of E-Summit, anyone can participate in a team of 1-4 people. It consists of three rounds-</p>
                 <p>(I) First round- Participants have to answer the questions related to their idea and product.</p>
                 <p>(II) Second round- Selected participants will have to submit a pitch deck and a MVP. Also, land one customer.</p>

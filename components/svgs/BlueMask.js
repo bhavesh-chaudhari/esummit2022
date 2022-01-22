@@ -1,7 +1,6 @@
 import * as React from "react";
 import styles from "../../styles/Hero.module.css";
 
-
 const SvgBlueMask = (props) => (
   <svg
     width={1366}

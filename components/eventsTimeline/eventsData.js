@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 2,
-    title: "Pitching Competition",
+    title: "Case Study Competition",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-left",
@@ -17,7 +17,7 @@ export default [
   },
   {
     id: 3,
-    title: "Pitching Competition",
+    title: "Virtual Trading Competition",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-right",
@@ -25,7 +25,7 @@ export default [
   },
   {
     id: 4,
-    title: "Pitching Competition",
+    title: "Connect the unicorns",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-left",
@@ -33,7 +33,7 @@ export default [
   },
   {
     id: 5,
-    title: "Pitching Competition",
+    title: "Speaker session",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-right",
@@ -41,7 +41,7 @@ export default [
   },
   {
     id: 6,
-    title: "Pitching Competition",
+    title: "Speaker Session",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-left",
@@ -49,7 +49,7 @@ export default [
   },
   {
     id: 7,
-    title: "Pitching Competition",
+    title: "Speaker session",
     subtitle: "Minimum Viable Product",
     date: "15/01/2022",
     alignText: "align-right",

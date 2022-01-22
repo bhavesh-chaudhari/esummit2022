@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from "../../styles/Hero.module.css"
+import styles from "../../styles/Hero.module.css";
 
 const SvgOrangeMask = (props) => (
   <svg

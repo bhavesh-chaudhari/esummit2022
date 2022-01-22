@@ -1,0 +1,192 @@
+.events-archive-container {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #164e63;
+}
+
+.event-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../public/images/EventContent/cardBg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 280px;
+  min-height: 280px;
+  border-radius: 10px;
+  border: 5px solid #67e8f9;
+  display: flex;
+  text-align: center;
+  color: #67e8f9;
+  flex-direction: column;
+  padding: 3rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+  cursor: grab;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.event-card h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.event-card p {
+  font-size: 1.5rem;
+}
+
+.carousel-container {
+  width: 970px;
+}
+
+.carousel-container :global(.slick-slider) {
+  max-width: 970px;
+  position: relative;
+}
+
+.carousel-container :global(.slick-list) {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container :global(.slick-list)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 100%;
+  background: linear-gradient(
+    -90deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.84) 30.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.carousel-container :global(.slick-list)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.84) 30.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 10;
+}
+
+.carousel-container :global(.slick-track) {
+  display: flex;
+  align-items: stretch;
+}
+
+.carousel-container :global(.slick-slide) {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.carousel-container :global(.slick-slide) > div {
+  display: flex;
+  justify-content: center;
+  margin: 0 0.4rem;
+}
+
+.carousel-container :global(.slick-arrow) {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.carousel-container :global(.slick-prev) {
+  left: 0;
+  top: 40%;
+  transform: translate(-100%, 0) rotateZ(180deg);
+}
+
+.carousel-container :global(.slick-next) {
+  right: 0;
+  top: 40%;
+  transform: translate(100%, 0);
+}
+
+.carousel-container :global(.slick-dots) {
+  display: none !important;
+}
+
+@media screen and (max-width: 1020px) {
+  .carousel-container {
+    width: 600px;
+  }
+  .carousel-container :global(.slick-slider) {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .event-card {
+    width: 250px;
+    min-height: 250px;
+  }
+  .carousel-container {
+    width: 330px;
+  }
+  .carousel-container :global(.slick-slider) {
+    max-width: 330px;
+  }
+  .carousel-container :global(.slick-slide) > div {
+    margin: 0 0.2rem;
+  }
+  .carousel-container :global(.slick-list)::after {
+    width: 20px;
+  }
+
+  .carousel-container :global(.slick-list)::before {
+    width: 20px;
+  }
+  .carousel-container :global(.slick-prev) {
+    transform: translate(-40%, 0) rotateZ(180deg);
+  }
+
+  .carousel-container :global(.slick-next) {
+    transform: translate(40%, 0);
+  }
+  .event-card h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .event-card p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+    .event-card{
+        width: 230px;
+        min-height: 230px;
+    }
+    .carousel-container {
+    width: 280px;
+  }
+  .carousel-container :global(.slick-slider) {
+    max-width: 280px;
+  }
+}

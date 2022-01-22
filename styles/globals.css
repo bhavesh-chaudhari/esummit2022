@@ -9,6 +9,7 @@
 html, body{
   background: #F5FDFE;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -65,7 +66,7 @@ a {
 
 .timeline-card-content{
   justify-content: center !important;
-  min-width: 300px;
+  min-width: 320px;
 }
 
 @media only screen and (max-width: 580px) {

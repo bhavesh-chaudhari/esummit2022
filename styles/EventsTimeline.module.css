@@ -39,11 +39,11 @@
 
 .custom-timeline-content {
   width: 50%;
-  min-width: 750px;
+  min-width: 800px;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
 }

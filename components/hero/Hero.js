@@ -1,4 +1,4 @@
-import {BlueMask, OrangeMask, BlueWave, OrangeWave } from "../svgs"
+import {BlueMask, OrangeMask } from "../svgs"
 import styles from "../../styles/Hero.module.css"
 
 const Hero = () => {
