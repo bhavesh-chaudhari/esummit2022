@@ -1,5 +1,6 @@
 import Head from "next/head";
 import EventsContent from "../../components/eventsContent/EventsContent";
+import EventsArchive from "../../components/eventsArchive/EventsArchive";
 
 const events = () => {
 
@@ -10,6 +11,7 @@ const events = () => {
       </Head>
       <div>
         <EventsContent />
+        <EventsArchive></EventsArchive>
       </div>
     </>
   );

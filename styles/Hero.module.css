@@ -1,1 +1,107 @@
 /* styles for hero component */
+
+.hero-container{
+    width: 100%;
+    position: relative;
+    margin-bottom: 6rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.orange-mask, .blue-mask{
+    z-index: 0;
+}
+
+.hero-container  .orange-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: wave linear 15s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    width: 3000px;
+    transform: scaleX(1.2);
+}
+.blue-mask{
+    width: 3000px;
+    animation: wave linear 10s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    transform: scaleX(1.2);
+}
+
+.orange-mask path, .blue-mask path{
+    transform: scaleX(1.2);
+}
+
+@keyframes wave {
+    0%{
+        transform: translateX(0%) scaleX(1.2);
+    }
+    20%{
+        transform: translateX(5%) scaleX(1.2);
+    }
+    50%{
+        transform: translateX(10%) scaleX(1.2) ;
+    }
+    100%{
+        transform: translateX(0%) scaleX(1.2);
+    }
+}
+
+.hero-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.hero-content h3{
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #363636;
+    margin-bottom: 4rem;
+}
+
+.hero-content button{
+    color: white;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.8rem;
+    background: #164E63;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: #164E63 0px 1px 4px 0px;
+    transition: all 0.4s ease;
+}
+
+.hero-content button:hover{
+    transform: scale(1.2);
+    box-shadow: #164E63 0px 2px 5px 0px;
+    background: #184b5e;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .hero-content h3{
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+    .hero-content button{
+        padding: 0.8rem 2rem;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+}

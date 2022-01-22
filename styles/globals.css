@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;200&family=Public+Sans:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Public+Sans:wght@200;300;600&display=swap');
 
 *{
   padding: 0;
@@ -8,6 +8,8 @@
 
 html, body{
   background: #F5FDFE;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -15,9 +17,6 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-:root {
-  --red-color: red;
-}
 /* Timeline override css */
 #react-chrono-timeline {
   display: none;
@@ -30,6 +29,7 @@ a {
 .active {
   background: none !important;
 }
+
 .css-1j1zxit-TitleWrapper {
   padding: 0 !important;
   text-align: center;
@@ -62,6 +62,11 @@ a {
 }
 .EventsContent_timeline-3__R4G2P .e1gmwefz2 {
   width: 50% !important;
+}
+
+.timeline-card-content{
+  justify-content: center !important;
+  min-width: 320px;
 }
 
 @media only screen and (max-width: 580px) {
