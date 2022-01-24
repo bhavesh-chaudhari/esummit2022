@@ -8,7 +8,7 @@ export default [
   {
     id: 2,
     heading: "About E Cell",
-    para: "adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id neque aliquam vestibulum morbi. Cras adipiscing enim eu turpis. Vitae et leo duis ut. Viverra adipiscing at in tellus integer feugiat scelerisque varius. Sed nisi lacus sed viverra tellus in hac habitasse.",
+    para: "Ecell is a student club under the Innovation Council Club which primarily aims to enlighten the thoughts of upcoming entrepreneurs and be a helping hand source to them by bringing together professors, students, new-age entrepreneurs, leaders, and investors on a common platform.",
     flexDirection: "row-reverse",
   },
 ];

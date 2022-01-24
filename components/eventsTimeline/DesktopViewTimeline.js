@@ -23,8 +23,7 @@ const DesktopViewTimeline = () => {
             cardForeColor: "violet",
             titleColor: "red",
           }}
-        >
-          {eventsData.map((event) => {
+        >{eventsData.map((event) => {
             return (
               <CardItem
                 key={event.id}
@@ -32,8 +31,7 @@ const DesktopViewTimeline = () => {
                 subTitle={event.subtitle}
                 date={event.date}
                 alignText={event.alignText}
-                dataAos={event.dataAos}
-              />
+                dataAos={event.dataAos}/>
             );
           })}
         </Chrono>

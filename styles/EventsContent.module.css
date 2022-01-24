@@ -9,6 +9,7 @@
   padding: 0;
   margin: 3rem 0;
 }
+
 .content-container {
   width: 90%;
   margin: auto;
@@ -44,6 +45,12 @@
   /* margin: auto; */
   font-family: "Public Sans", sans-serif;
   color: #0891b2;
+}
+
+.timeline-3 ul li :global(.css-3iqrge-TimelineTitleContainer){
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 80% !important;
 }
 
 .timeline-1 p,

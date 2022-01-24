@@ -5,7 +5,6 @@
   background:  #164E63;
   width: 100%;
   padding: 1rem 2rem;
-  min-height: 250px;
 }
 
 .footer-container a{
@@ -14,13 +13,7 @@
 
 .footer {
   display: flex;
-  justify-content: center;
-  width: 85%;
-  position: relative;
-}
-
-.footer > div{
-  margin: 0 10rem;
+  width: 70%;
 }
 
 .esummit {
@@ -28,6 +21,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 50%;
+  transform: translate(0, -5px);
 }
 
 .esummit-logo{
@@ -68,6 +63,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  width: 50%;
 }
 
 .esummit > div {

@@ -69,6 +69,13 @@ a {
   min-width: 320px;
 }
 
+ul li:nth-child(odd) .css-3iqrge-TimelineTitleContainer{
+  /* background: red; */
+  position: absolute !important;
+  top: 80% !important;
+  bottom: 0 !important;
+}
+
 @media only screen and (max-width: 580px) {
   .css-1w5cr6l-Wrapper {
     margin-top: 10px;
