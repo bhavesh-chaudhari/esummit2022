@@ -17,6 +17,7 @@ const Navbar = () => {
             src="/logos/navlogo.png"
             width={180}
             height={30}
+            alt="logo"
           ></Image>
         </div>
         <div
@@ -59,7 +60,7 @@ const Navbar = () => {
           </ul>
           <div className={styles["mobile-menu-logo"]}>
             <div className={styles["mobile-menu-logo-content"]}>
-              <Image src="/images/navbar/navlogo.png" height={25} width={120} ></Image>
+              <Image src="/images/navbar/navlogo.png" height={25} width={120} alt="logo" ></Image>
               <hr />
               <p>Progress over Perfection</p>
             </div>

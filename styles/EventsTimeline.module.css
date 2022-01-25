@@ -105,6 +105,16 @@
   transform: translate(-51%, -50%) scale(0.8) !important;
 } */
 
+.container :global(.card-description) > div{
+  width: 95%;
+}
+
+@media screen and (min-width: 800px) {
+  .container :global(.card-description) > div{
+    min-width: 320px;
+}
+}
+
 @media screen and (max-width: 800px) {
   .header h2 {
     font-size: 1.5rem;

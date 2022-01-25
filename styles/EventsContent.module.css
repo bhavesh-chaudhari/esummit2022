@@ -5,15 +5,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .content-container {
   width: 90%;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .content-container h1 {
@@ -24,17 +25,17 @@
   font-size: 36px;
 }
 
-.timeline-1 h1 {
-  margin-top: 50px;
-}
-
 .content-container p {
   font-family: "Public Sans", sans-serif;
   color: #155e75;
   font-size: 1.3rem;
   line-height: 2rem;
-  margin: 20px auto;
+  margin: 1.5rem auto;
   width: 60%;
+}
+
+.timeline-container{
+  margin: 1.5rem 0;
 }
 
 .timeline-1,
@@ -42,15 +43,72 @@
 .timeline-3 {
   display: flex;
   justify-content: center;
-  /* margin: auto; */
   font-family: "Public Sans", sans-serif;
   color: #0891b2;
+  width: 100%;
+  align-items: center;
 }
 
-.timeline-3 ul li :global(.css-3iqrge-TimelineTitleContainer){
+.timeline-1 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56%;
+  min-width: 815px;
+}
+
+.timeline-1 > div > div {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.timeline-1 > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.timeline-1 > div > div > div > div {
+  position: relative !important;
+  min-width: 800px;
+}
+
+/* dates */
+
+.timeline-1 ul li:nth-child(odd) > div > div:nth-child(2) {
   position: absolute !important;
-  top: 0 !important;
-  bottom: 80% !important;
+  top: 80% !important;
+  bottom: 0 !important;
+}
+
+.timeline-1 ul li > div > div:nth-child(2) > div,
+.timeline-2 ul li > div > div:nth-child(2) > div,
+.timeline-3 ul li > div > div:nth-child(2) > div {
+  padding: 0 !important;
+  text-align: center;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.timeline-1 :global(#timeline-main-wrapper) > :global(.horizontal) > div {
+  width: 85% !important;
+}
+
+.timeline-2 :global(#timeline-main-wrapper) > :global(.horizontal) > div {
+  width: 70% !important;
+}
+
+.timeline-3 :global(#timeline-main-wrapper) > :global(.horizontal) > div {
+  width: 50% !important;
+}
+
+.timeline-2 ul li:nth-child(odd) > div > div:nth-child(2) {
+  position: absolute !important;
+  top: 80% !important;
+  bottom: 0 !important;
 }
 
 .timeline-1 p,
@@ -60,9 +118,11 @@
   font-family: "Public Sans", sans-serif;
   width: 70px;
   height: 40px;
-  margin-top: 87px;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .css-11bs53x-TitleWrapper.active {
@@ -72,6 +132,28 @@
 
 .chrono-icons img {
   box-shadow: 4px 4px 10px 0px #0000004d;
+}
+
+.container :global(.css-feln2p-TimelineTitleWrapper) {
+  width: 50%;
+  min-width: 48%;
+}
+
+@media screen and (max-width: 950px) {
+  .container :global(.card-content-wrapper) {
+    visibility: hidden !important;
+    min-width: 48%;
+  }
+  .timeline-1 {
+    flex-direction: column;
+  }
+  .timeline-1 > div {
+    min-width: 0px;
+  }
+  .timeline-1 > div > div > div > div {
+    min-width: 0px;
+    min-width: 300px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -87,7 +169,6 @@
     margin: 20px auto;
     width: 80%;
   }
-  .timeline-1,
   .timeline-2,
   .timeline-3 {
     flex-direction: column;

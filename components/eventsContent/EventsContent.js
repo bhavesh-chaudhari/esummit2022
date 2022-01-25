@@ -2,18 +2,18 @@ import React from "react";
 import MediaQuery from "react-responsive";
 
 import styles from "../../styles/EventsContent.module.css";
-import TimelineOne from "./TimelineOne";
-import TimelineOneMobile from "./TimelineOneMobile";
-import TimelineTwoMobile from "./TimelineTwoMobile";
-import TimelineThreeMobile from "./TimelineThreeMobile";
-import TimelineThree from "./TimelineThree";
-import TimelineTwo from "./TimelineTwo";
+import TimelineOne from "./TimelineOne.js";
+import TimelineOneMobile from "./TimelineOneMobile.js";
+import TimelineTwoMobile from "./TimelineTwoMobile.js";
+import TimelineThreeMobile from "./TimelineThreeMobile.js";
+import TimelineThree from "./TimelineThree.js";
+import TimelineTwo from "./TimelineTwo.js";
 
 const EventsContent = () => {
   return (
     <div className={styles["container"]}>
       <div className={styles["content-container"]}>
-        <h1 id="details">Pitch it to win it</h1>
+        <h1 id="details">Pitchers 3.0</h1>
         <p>
           This is the main event of E-Summit, anyone can participate in a team
           of 1-4 people. It consists of three rounds-
@@ -31,14 +31,18 @@ const EventsContent = () => {
           in front of the jury and win the rewards as decided.
         </p>
       </div>
-      <MediaQuery minWidth={580}>
-        <TimelineOne />
-      </MediaQuery>
-      <MediaQuery maxWidth={580}>
-        <TimelineOneMobile />
-      </MediaQuery>
+
+      <div className={styles["timeline-container"]}>
+        <MediaQuery minWidth={950}>
+          <TimelineOne />
+        </MediaQuery>
+        <MediaQuery maxWidth={950}>
+          <TimelineOneMobile />
+        </MediaQuery>
+      </div>
+
       <div className={styles["content-container"]}>
-        <h1>Case Study Competition</h1>
+        <h1>The House of Investors</h1>
         <p>
           Participants will team up and analyze other startups and make case
           studies/case lets about them which can also be used as a resource for
@@ -46,12 +50,16 @@ const EventsContent = () => {
           world.
         </p>
       </div>
-      <MediaQuery minWidth={580}>
-        <TimelineTwo />
-      </MediaQuery>
-      <MediaQuery maxWidth={580}>
-        <TimelineTwoMobile />
-      </MediaQuery>
+
+      <div className={styles["timeline-container"]}>
+        <MediaQuery minWidth={580}>
+          <TimelineTwo />
+        </MediaQuery>
+        <MediaQuery maxWidth={580}>
+          <TimelineTwoMobile />
+        </MediaQuery>
+      </div>
+
       <div className={styles["content-container"]}>
         <h1>Virtual Trading Competition</h1>
         <p>
@@ -70,12 +78,14 @@ const EventsContent = () => {
           of a quiz.
         </p>
       </div>
-      <MediaQuery minWidth={580}>
-        <TimelineThree />
-      </MediaQuery>
-      <MediaQuery maxWidth={580}>
-        <TimelineThreeMobile />
-      </MediaQuery>
+      <div className={styles["timeline-container"]}>
+        <MediaQuery minWidth={580}>
+          <TimelineThree />
+        </MediaQuery>
+        <MediaQuery maxWidth={580}>
+          <TimelineThreeMobile />
+        </MediaQuery>
+      </div>
     </div>
   );
 };

@@ -15,18 +15,19 @@ const Card = () => {
           width={150}
           height={150}
           className={styles["profile_Pic"]}
+          alt="image"
         ></Image>
       </div>
       <h2 className={styles["Name"]}>John Doe</h2>
       <div className={styles["social_logo"]}>
         <div className={styles["logo_bg"]}>
-          <Image src="/logos/twitter.svg" width={45} height={32}></Image>
+          <Image src="/logos/twitter.svg" width={45} height={32} alt="Twitter Logo" ></Image>
         </div>
         <div className={styles["logo_bg"]}>
-          <Image src="/logos/facebook.svg" width={45} height={32}></Image>
+          <Image src="/logos/facebook.svg" width={45} height={32} alt="Facebook Logo" ></Image>
         </div>
         <div className={styles["logo_bg"]}>
-          <Image src="/logos/instagram.svg" width={45} height={32}></Image>
+          <Image src="/logos/instagram.svg" width={45} height={32} alt="Instagram Logo" ></Image>
         </div>
       </div>
     </div>

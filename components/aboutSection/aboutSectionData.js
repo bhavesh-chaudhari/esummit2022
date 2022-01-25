@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     heading: "About E Summit",
@@ -12,3 +12,5 @@ export default [
     flexDirection: "row-reverse",
   },
 ];
+
+export default data
