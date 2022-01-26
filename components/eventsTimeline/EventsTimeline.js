@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import MediaQuery from 'react-responsive'
 import styles from "../../styles/EventsTimeline.module.css"
 import DesktopViewTimeline from './DesktopViewTimeline'
