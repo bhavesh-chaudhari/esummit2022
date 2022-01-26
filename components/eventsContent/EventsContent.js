@@ -1,5 +1,5 @@
 import React from "react";
-import MediaQuery from "react-responsive";
+import MediaQuery, {useMediaQuery} from "react-responsive";
 
 import styles from "../../styles/EventsContent.module.css";
 import TimelineOne from "./TimelineOne.js";
@@ -10,6 +10,7 @@ import TimelineThree from "./TimelineThree.js";
 import TimelineTwo from "./TimelineTwo.js";
 
 const EventsContent = () => {
+
   return (
     <div className={styles["container"]}>
       <div className={styles["content-container"]}>
@@ -34,10 +35,10 @@ const EventsContent = () => {
 
       <div data-aos="zoom-in" className={styles["timeline-container"]}>
         <MediaQuery minWidth={950}>
-          <TimelineOne />
+            <TimelineOne />
         </MediaQuery>
         <MediaQuery maxWidth={950}>
-          <TimelineOneMobile />
+            <TimelineOneMobile />
         </MediaQuery>
       </div>
 
@@ -51,12 +52,16 @@ const EventsContent = () => {
         </p>
       </div>
 
-      <div data-aos="zoom-in" className={styles["timeline-container"]}>
+      <div
+        data-aos="zoom-in"
+        data-aos-once={false}
+        className={styles["timeline-container"]}
+      >
         <MediaQuery minWidth={580}>
-          <TimelineTwo />
+            <TimelineTwo />
         </MediaQuery>
         <MediaQuery maxWidth={580}>
-          <TimelineTwoMobile />
+            <TimelineTwoMobile />
         </MediaQuery>
       </div>
 
@@ -80,10 +85,10 @@ const EventsContent = () => {
       </div>
       <div data-aos="zoom-in" className={styles["timeline-container"]}>
         <MediaQuery minWidth={580}>
-          <TimelineThree />
+            <TimelineThree />
         </MediaQuery>
         <MediaQuery maxWidth={580}>
-          <TimelineThreeMobile />
+            <TimelineThreeMobile />
         </MediaQuery>
       </div>
     </div>

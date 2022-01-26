@@ -9,8 +9,6 @@ const contact = () => {
     const leads = teamData.filter((member)=> member.isLead === true || member.isColead === true)
     const teamMembers = teamData.filter((member)=> member.isMember === true)
 
-    console.log(teamMembers)
-
     return (
       <>
         <Head>
