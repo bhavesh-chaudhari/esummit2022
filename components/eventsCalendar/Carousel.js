@@ -1,6 +1,6 @@
 import { Children } from "react";
 import Slider from "react-slick";
-import styles from "../../styles/EventsArchive.module.css";
+import styles from "../../styles/EventsCalendar.module.css";
 import { Arrow } from "../svgs";
 
 const NextArrow = (props) => {
@@ -35,7 +35,7 @@ const Carousel = ({children}) => {
     infinite: true,
     slidesToShow: 3,
     centerMode: true,
-    initialSlide: 0,
+    initialSlide: 1,
     slidesToScroll: 1,
     autoplay: false,
     speed: 500,

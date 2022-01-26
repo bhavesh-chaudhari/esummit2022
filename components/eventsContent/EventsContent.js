@@ -32,7 +32,7 @@ const EventsContent = () => {
         </p>
       </div>
 
-      <div className={styles["timeline-container"]}>
+      <div data-aos="zoom-in" className={styles["timeline-container"]}>
         <MediaQuery minWidth={950}>
           <TimelineOne />
         </MediaQuery>
@@ -51,7 +51,7 @@ const EventsContent = () => {
         </p>
       </div>
 
-      <div className={styles["timeline-container"]}>
+      <div data-aos="zoom-in" className={styles["timeline-container"]}>
         <MediaQuery minWidth={580}>
           <TimelineTwo />
         </MediaQuery>
@@ -78,7 +78,7 @@ const EventsContent = () => {
           of a quiz.
         </p>
       </div>
-      <div className={styles["timeline-container"]}>
+      <div data-aos="zoom-in" className={styles["timeline-container"]}>
         <MediaQuery minWidth={580}>
           <TimelineThree />
         </MediaQuery>

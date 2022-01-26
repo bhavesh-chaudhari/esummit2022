@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,28 +39,48 @@ const Navbar = () => {
         >
           <ul>
             <li className={styles["menu-title"]}>Menu</li>
-            <li className={router.pathname == "/" ? styles["active"] : ""}>
-              <Link href="/">Home</Link>
+            <li
+              onClick={() => {
+                setShow((prevState) => !prevState);
+              }}
+              className={router.pathname == "/" ? styles["active"] : ""}
+            >
+              <Link scroll={true} href="/">Home</Link>
             </li>
             <li
+              onClick={() => {
+                setShow((prevState) => !prevState);
+              }}
               className={router.pathname == "/events" ? styles["active"] : ""}
             >
-              <Link href="/events">Events</Link>
+              <Link scroll={true} href="/events">Events</Link>
             </li>
             <li
+              onClick={() => {
+                setShow((prevState) => !prevState);
+              }}
               className={router.pathname == "/contact" ? styles["active"] : ""}
             >
-              <Link href="/contact">Contact</Link>
+              <Link scroll={true} href="/contact">Contact</Link>
             </li>
-            <li
+            {/* <li
+              onClick={() => {
+                setShow((prevState) => !prevState);
+                window.scrollTo(0, 0)
+              }}
               className={router.pathname == "/sponsors" ? styles["active"] : ""}
             >
               <Link href="/sponsors">Sponsors</Link>
-            </li>
+            </li> */}
           </ul>
           <div className={styles["mobile-menu-logo"]}>
             <div className={styles["mobile-menu-logo-content"]}>
-              <Image src="/images/navbar/navlogo.png" height={25} width={120} alt="logo" ></Image>
+              <Image
+                src="/images/navbar/navlogo.png"
+                height={25}
+                width={120}
+                alt="logo"
+              ></Image>
               <hr />
               <p>Progress over Perfection</p>
             </div>

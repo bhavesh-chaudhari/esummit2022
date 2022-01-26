@@ -2,18 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background:  #164E63;
+  background: #164e63;
   width: 100%;
   padding: 1rem 2rem;
 }
 
-.footer-container a{
+.footer-container a {
   color: white;
 }
 
 .footer {
   display: flex;
-  width: 70%;
+  width: 50%;
 }
 
 .esummit {
@@ -25,17 +25,11 @@
   transform: translate(0, -5px);
 }
 
-.esummit-logo{
+.esummit-logo {
   transform: translate(-5px, 0);
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.flex-column h4{
+.flex-column h4 {
   color: white;
   font-size: 1.2rem;
   font-family: "Public Sans", sans-serif;
@@ -43,7 +37,7 @@
   opacity: 0.9;
 }
 
-.flex-column h2{
+.flex-column h2 {
   color: white;
   opacity: 0.6;
   font-size: 1.1rem;
@@ -52,33 +46,49 @@
   margin-bottom: 1rem;
 }
 
-.flex-column p{
+.flex-column p {
   color: white;
   font-family: "Public Sans", sans-serif;
-  font-size: 1.1rem;  
+  font-size: 1.1rem;
 }
 
 .query {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  align-items: flex-end;
   width: 50%;
+}
+
+.query .flex-column:nth-child(2) {
+  transform: translate(0, -10px);
+}
+
+.query .flex-column {
+  width: 220px;
 }
 
 .esummit > div {
   margin: 15px 0;
 }
 
-.query > div{
+.query > div {
   margin: 25px 0;
 }
 
 .query .square {
   display: flex;
+  align-items: center;
   width: 200px;
   height: 1.2rem;
-  transform: translate(-0.6rem, 0);
+  transform: translate(-0.3rem, 8px);
+}
+
+.query .square a {
+  transition: all 0.5s ease;
+}
+
+.query .square a:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1000px) {
@@ -87,22 +97,25 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .query .square{
+  .query .square {
     margin-left: 0px;
   }
-  
 }
 
 @media screen and (max-width: 620px) {
-  .footer-container{
+  .footer-container {
     justify-content: flex-start;
   }
-  .footer{
+  .footer {
     flex-direction: column;
     width: 100%;
     justify-content: flex-start;
   }
-  .query, .esummit{
+  .query,
+  .esummit {
+    width: 100%;
+  }
+  .query .flex-column {
     width: 100%;
   }
 }

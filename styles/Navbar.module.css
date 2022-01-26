@@ -1,5 +1,4 @@
 .navbar-container {
-  position: relative;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -9,13 +8,17 @@
   height: 8vh;
   min-height: 65px;
   font-family: "Open Sans", sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 8px 5px -8px #000;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 90%;
 }
 
 .nav-logo {
@@ -131,6 +134,7 @@
     align-items: center;
     text-align: center;
     padding: 2rem;
+    /* margin-bottom: 1rem; */
   }
   .mobile-menu-logo-content{
     display: flex;

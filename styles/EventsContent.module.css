@@ -6,9 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  margin: 2rem 0;
+  padding: 6.5rem 0;
+  padding-bottom: 0;
 }
 
 .content-container {
@@ -23,6 +22,7 @@
   color: #164e63;
   line-height: 49px;
   font-size: 36px;
+  font-weight: 500;
 }
 
 .content-container p {
@@ -154,18 +154,22 @@
     min-width: 0px;
     min-width: 300px;
   }
+  .content-container{
+    width: 98%;
+  }
+  .content-container p{
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 580px) {
   .content-container h1 {
-    line-height: 29px;
-    font-size: 28px;
-    margin-top: 80px;
+    font-size: 1.6rem;
     font-weight: 400;
+    line-height: 2rem;
   }
   .content-container p {
-    line-height: 18px;
-    font-size: 14px;
+    font-size: 1rem;
     margin: 20px auto;
     width: 80%;
   }
