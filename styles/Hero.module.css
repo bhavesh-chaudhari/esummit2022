@@ -87,6 +87,12 @@
     background: #184b5e;
 }
 
+@media screen and (max-width: 1000px) {
+    .hero-content{
+        top: 50%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .hero-content{
         width: 100%;

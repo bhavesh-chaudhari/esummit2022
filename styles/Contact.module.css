@@ -1,1 +1,68 @@
 /* styles for contact page */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6.5rem 0;
+  padding-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #164E63;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contact-content h1{
+    margin-top: 2rem;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header{
+    width: 100%;
+    margin: 2rem;
+}
+
+.header h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.heads h2{
+    margin-top: 1.4rem !important;
+    font-size: 1.3rem !important;
+}
+
+.member-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-content{
+        width: 95%;
+    }
+    .contact-content h1{
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+    .header h2{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}

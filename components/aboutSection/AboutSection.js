@@ -16,16 +16,16 @@ const AboutSection = (props) => {
       <div style={{flexDirection: flexDirection}} className={styles["about-section-content"]}>
         <div className={styles["pillars"]}>
           <div data-aos="fade-up" className={styles["col"]}>
-            <Image src={col1} />
+            <Image alt="col1" src={col1} />
           </div>
           <div
             data-aos="fade-up"
             data-aos-delay="100"
             className={styles["col"]}
           >
-            <Image src={col2} alt="col2" />
+            <Image alt="col2" src={col2} />
             <div className={styles["child-pillar-1"]}>
-              <Image src={col1} />
+              <Image alt="col1Image" src={col1} />
             </div>
           </div>
           <div
@@ -33,16 +33,16 @@ const AboutSection = (props) => {
             data-aos-delay="200"
             className={styles["col"]}
           >
-            <Image src={col3}></Image>
+            <Image alt="col3" src={col3}></Image>
           </div>
           <div
             data-aos="fade-up"
             data-aos-delay="300"
             className={styles["col"]}
           >
-            <Image src={col4}></Image>
+            <Image alt="col4" src={col4}></Image>
             <div className={styles["child-pillar-2"]}>
-              <Image src={col4Child}></Image>
+              <Image alt="col4child" src={col4Child}></Image>
             </div>
           </div>
           <div
@@ -50,7 +50,7 @@ const AboutSection = (props) => {
             data-aos-delay="400"
             className={styles["col"]}
           >
-            <Image src={col5}></Image>
+            <Image alt="col5" src={col5}></Image>
           </div>
         </div>
         <div className={styles["about-info"]}>

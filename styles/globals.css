@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Public+Sans:wght@200;300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Public+Sans:wght@200;300;600&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html, body{
-  background: #F5FDFE;
+html,
+body {
+  background: #f5fdfe;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -30,70 +31,28 @@ a {
   background: none !important;
 }
 
-.css-1j1zxit-TitleWrapper {
-  padding: 0 !important;
-  text-align: center;
-  font-weight: 500 !important;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-}
-
-.css-1gw5c19-Circle {
-  cursor: default !important;
-  box-shadow: 3px 3px 6px 0px #0000004d;
-}
-
-.css-1w5cr6l-Wrapper {
-  margin-top: 50px;
-}
-
-.css-1qotlez-Outline {
-  box-shadow: 3px 3px 6px 0px #0000004d;
-}
-
-.css-1u1h90i-TimelineHorizontalWrapper {
-  padding-left: 0 !important;
-}
-.EventsContent_timeline-1__CwM5D .e1gmwefz2 {
-  width: 85% !important;
-}
-
-.EventsContent_timeline-2__kQ_qX .e1gmwefz2 {
-  width: 70% !important;
-}
-.EventsContent_timeline-3__R4G2P .e1gmwefz2 {
-  width: 50% !important;
-}
-
-.timeline-card-content{
+.timeline-card-content {
   justify-content: center !important;
   min-width: 320px;
 }
 
-@media only screen and (max-width: 580px) {
-  .css-1w5cr6l-Wrapper {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.timeline-circle {
+  cursor: default !important;
+  box-shadow: 3px 3px 6px 0px #0000004d;
+}
+
+#timeline-main-wrapper > .horizontal > div{
+  box-shadow: 3px 3px 6px 0px #0000004d;
+}
+
+@media screen and (min-width: 950px) {
+  .timeline-item-title{
+    min-width: 160px;
   }
-  .left .css-nswpap-TitleWrapper {
-    text-align: left !important;
-    padding-left: 15px;
-  }
-  .right .css-nswpap-TitleWrapper {
-    padding-right: 12px;
-  }
-  .css-nswpap-TitleWrapper {
-    font-size: 14px !important;
-  }
-  .css-og9hj5-TimelineCardContentWrapper {
-    visibility: hidden !important;
-  }
-  .timeline-item-title {
-    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.25);
-  }
-  .css-128pz9-TimelineMainWrapper {
-    padding: 0 !important;
-  }
-  .css-12a9zhy-TimelineContentDetailsWrapper {
-    align-items: flex-start !important;
+}
+
+@media only screen and (max-width: 950px) {
+  .timeline-item-title.active, .timeline-item-title{
+    padding: 0 12px !important;
   }
 }
