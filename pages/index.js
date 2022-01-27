@@ -14,7 +14,7 @@ const Home = () => {
         <meta name="title" content="Esummit 2021 | IIITN"></meta>
         <meta
           name="description"
-          content="E summit is Flagship event of IIITNagpur under the Innovation Council Club. "
+          content="E summit is the Flagship event of IIITNagpur under the Innovation Council Club. "
         />
         <meta
           name="keywords"
