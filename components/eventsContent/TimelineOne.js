@@ -84,7 +84,7 @@ const TimelineOne = () => {
             </div>
           </Chrono>
         </div>
-        <p className={styles["para2"]}>8th Feb</p>
+        <p className={styles["para2"]}>11th Feb</p>
       </div>
   );
 };
