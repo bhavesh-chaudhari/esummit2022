@@ -24,6 +24,10 @@ const Home = () => {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English"></meta>
         <meta
+          name="google-site-verification"
+          content="JDXcwG5v5EZWW9sWAe6KbNv_RnVh3xd-Heqoc1g852U"
+        />
+        <meta
           property="og:image"
           content="https://esummit.vercel.app/_next/image?url=%2Flogos%2Flogo.png&w=384&q=75"
         ></meta>
