@@ -61,6 +61,11 @@
   width: 60%;
 }
 
+.content-container p span{
+  color: #0891b2;
+  text-decoration: underline dotted 2px red;
+}
+
 .timeline-container{
   margin: 1.5rem 0;
 }

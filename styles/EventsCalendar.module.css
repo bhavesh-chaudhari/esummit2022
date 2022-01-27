@@ -52,6 +52,7 @@
   transform: translate(-50%, 0);
   bottom: 7rem;
   font-size: 1.2rem;
+  width: 90%;
 }
 
 .event-card button {

@@ -28,24 +28,32 @@ const EventsContent = () => {
           </a>{" "}
         </h1>
         <p>
-          This is the main event of E-Summit, anyone can participate in a team
-          of 1-4 people. It consists of three rounds-
+          The Entrepreneurship Cell of IIIT Nagpur presents “Pitchers 3.0”, a
+          platform for the entrepreneurship enthusiasts out there. In this
+          competition, participants will explain the idea, create an MVP (no
+          code), land a customer, create a pitch deck, finally pitch to the
+          judges. This competition will contain three rounds.
         </p>
         <p>
-          (I) First round- Participants have to answer the questions related to
-          their idea and product.
+          (I) <span>Idea Description</span> - The first round, stronger your
+          market research about your idea, easier for you to clear this round.
+          Participants have to describe their idea or product on the D2C portal.
         </p>
         <p>
-          (II) Second round- Selected participants will have to submit a pitch
-          deck and a MVP. Also, land one customer.
+          (II) <span>Pitch Deck Submission</span> - Selected participants will
+          have to submit a pitch deck and a MVP. Also, land one customer.
         </p>
         <p>
-          (III) Third round- Selected participants will get to pitch their idea
-          in front of the jury and win the rewards as decided.{" "}
+          (III) <span>Pitching Live</span> - Selected participants will get to
+          pitch their idea in front of the jury and win the rewards as decided.{" "}
         </p>
       </div>
 
-      <div data-aos="zoom-in" className={styles["timeline-container"]}>
+      <div
+        data-aos="zoom-in"
+        data-aos-once={true}
+        className={styles["timeline-container"]}
+      >
         <MediaQuery minWidth={950}>
           <TimelineOne />
         </MediaQuery>
@@ -70,10 +78,11 @@ const EventsContent = () => {
           </a>{" "}
         </h1>
         <p>
-          Participants will team up and analyze other startups and make case
-          studies/case lets about them which can also be used as a resource for
-          other students.Through this they will learn about the entrepreneur
-          world.{" "}
+          Presenting “The House of Investors", a platform for the
+          entrepreneurship & wanna-be VCs enthusiasts out there. In this
+          competition, participants are supposed to step into investor's shoes,
+          think like investors, create an investment pitch and record it for a
+          startup chosen from the provided decks.{" "}
         </p>
       </div>
 
@@ -102,20 +111,36 @@ const EventsContent = () => {
           </a>
         </h1>
         <p>
-          Scam 2022 is a virtual trading competition. The team achieving maximum
-          gain in portfolio value at the end of 6 hours will be the overall
-          winner of the competition. Real-time market prices will be used, and
-          the participants cannot influence the prices.{" "}
+          Presenting “Scam 2022”, a platform for the stock market enthusiasts
+          out there, in association with StockGro. The online virtual trading
+          event will last for 5 trading days. The login information for the
+          trading account will be made available to the registered participants
+          only. Details regarding login and registration on the online platform
+          would be communicated via email. Participants will be ranked based on
+          their performances.
         </p>
       </div>
       <div className={styles["content-container"]}>
-        <h1>Connect the unicorns</h1>
+        <h1>
+          QuizHunt{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://dare2compete.com/p/connect-the-unicorns-e-summit-22-iiit-nagpur-indian-institute-of-information-technology-iiit-nagpur-258311?lb=Y3xEm0y"
+            className={styles["register-link"]}
+          >
+            <button>
+              <span>Register</span>
+              <span>&#8599;</span>
+            </button>
+          </a>
+        </h1>
         <p>
-          2 rounds of quiz, will give you a one-day tour around the
-          entrepreneurship world. First round-Participants have to connect
-          pictures and answer related questions to it. Second round-Selected
-          students will have to face different real world situations in the form
-          of a quiz.
+          The Entrepreneurship Cell of IIIT Nagpur in its second edition brings
+          to you the "QuizHunt", a platform for the business, entrepreneurship,
+          technology, and marketing enthusiasts out there. Solve questions, and
+          supercharge your competitive spirit for this trial of
+          entrepreneurship, technology, business, and marketing mastery.
         </p>
       </div>
       <div data-aos="zoom-in" className={styles["timeline-container"]}>

@@ -81,8 +81,8 @@ const data = [
   },
   {
     id: 11,
-    title: "Connect the Unicorns",
-    subtitle: "2 rounds of Quiz",
+    title: "QuizHunt",
+    subtitle: "Charge your competitive spirit !",
     date: "12/02/2022",
     alignText: "align-right",
     dataAos: "fade-left",

@@ -14,7 +14,7 @@ const events = () => {
         />
         <meta
           name="keywords"
-          content="ACE, Esummit, Esummit 2021, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Events"
+          content="ACE IIITN, ACE, Esummit 2021, IIIT Nagpur, Pitchers 3.0, QuizHunt, The House of Investors, Scam 2022, Esummit competitions"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

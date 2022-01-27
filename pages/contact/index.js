@@ -21,7 +21,7 @@ const contact = () => {
         />
         <meta
           name="keywords"
-          content="ACE, Esummit Contact, Esummit 2021, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell"
+          content="ACE, Esummit 2021, IIIT Nagpur, IIITN, Esummit Contacts, Ace student heads, ace leads, esummit 2021 team"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

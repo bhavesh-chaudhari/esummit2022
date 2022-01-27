@@ -57,8 +57,8 @@ const data = [
   },
   {
     id: 6,
-    title: "Connect the Unicorns",
-    subtitle: "Quiz",
+    title: "QuizHunt",
+    subtitle: "Charnge your competitive spirit !",
     day: "12",
     startHour: "08",
     startMinute: "59",
