@@ -37,7 +37,7 @@ const Carousel = ({children}) => {
     centerMode: true,
     initialSlide: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 500,
     autoplaySpeed: 2500,
     nextArrow: <NextArrow></NextArrow>,

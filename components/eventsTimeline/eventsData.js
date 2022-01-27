@@ -49,8 +49,8 @@ const data = [
   },
   {
     id: 7,
-    title: "Virtual Trading Competition",
-    subtitle: "Begins Now",
+    title: "Scam 2022",
+    subtitle: "Virtual Trading Competition",
     date: "07/02/2022",
     alignText: "align-right",
     dataAos: "fade-left",

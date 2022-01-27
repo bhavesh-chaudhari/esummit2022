@@ -7,6 +7,7 @@
   align-items: center;
   padding: 6.5rem 0;
   padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .content-container {
@@ -22,6 +23,33 @@
   line-height: 49px;
   font-size: 36px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+}
+
+.register-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  opacity: 0.9;
+}
+
+.register-link button{
+  /* background: #164e63; */
+  border: none;
+  color: #164e63;
+  padding: 2px 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 .content-container p {
@@ -133,6 +161,13 @@
   min-width: 48%;
 }
 
+@media screen and (max-width: 1100px) {
+  .register-link button > span:nth-child(1){
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 950px) {
   .container :global(.card-content-wrapper) {
     visibility: hidden !important;
@@ -154,6 +189,9 @@
   .content-container p{
     width: 80%;
   }
+  .content-container h1{
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -161,11 +199,29 @@
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2rem;
+    width: 90%;
+    position: relative;
+    justify-content: space-between;
+  }
+  .register-link{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    opacity: 1;
+  }
+  .register-link span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  .register-link button{
+    padding: 1px 2px;
   }
   .content-container p {
     font-size: 1rem;
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
   }
   .timeline-2,
   .timeline-3 {
