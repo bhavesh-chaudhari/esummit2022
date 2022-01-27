@@ -23,7 +23,7 @@ const Footer = () => {
           <div className={styles["flex-column"]}>
             <h2>TECHNICAL QUERIES AT:</h2>
             <p>
-              <a href="mailto:esummit@gmail.com">esummit@gmail.com</a>
+              <a href="mailto:ace@iiitn.ac.in">ace@iiitn.ac.in</a>
             </p>
           </div>
           <div className={styles["flex-column"]}>

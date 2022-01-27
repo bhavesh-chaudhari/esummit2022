@@ -193,6 +193,26 @@ const teamData = [
     linkedinLink: "https://www.linkedin.com/in/hem-mahimkar-307903202/",
     isColead: true,
   },
+  {
+    id: 21,
+    name: "Paras Saxena",
+    imagePath: "/images/team/parasSaxena.jpg",
+    department: "Webdev",
+    email: "paras.saxena11@gmail.com",
+    linkedinLink: "https://www.linkedin.com/in/paras-saxena-1b7984202",
+    instagramLink: "http://www.instagram.com/paras_saxena77",
+    isMember: true,
+  },
+  {
+    id: 22,
+    name: "Shubhasri Tadepalli",
+    imagePath: "/images/team/shubhasriTadepalli.jpeg",
+    department: "Design",
+    email: "shubhasritadepalli@gmail.com",
+    linkedinLink: "https://www.linkedin.com/in/shubhasri-tadepalli-458981204/",
+    instagramLink: "https://www.instagram.com/shubha_sri_tadepalli",
+    isMember: true,
+  },
 ];
 
 export default teamData;
