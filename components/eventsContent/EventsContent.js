@@ -14,7 +14,7 @@ const EventsContent = () => {
     <div id="details" className={styles["container"]}>
       <div className={styles["content-container"]}>
         <h1>
-          Pitchers 3.0{" "}
+          Pitchers 3.0
           <a
             target="_blank"
             rel="noreferrer"
@@ -25,14 +25,14 @@ const EventsContent = () => {
               <span>Register</span>
               <span>&#8599;</span>
             </button>
-          </a>{" "}
+          </a>
         </h1>
         <p>
-          The Entrepreneurship Cell of IIIT Nagpur presents “Pitchers 3.0”, a
-          platform for the entrepreneurship enthusiasts out there. In this
-          competition, participants will explain the idea, create an MVP (no
-          code), land a customer, create a pitch deck, finally pitch to the
-          judges. This competition will contain three rounds.
+          The Entrepreneurship Cell of IIIT Nagpur presents{" "}
+          <q>Pitchers 3.0</q>, a platform for the entrepreneurship enthusiasts
+          out there. In this competition, participants will explain the idea,
+          create an MVP (no code), land a customer, create a pitch deck, finally
+          pitch to the judges. This competition will contain three rounds.
         </p>
         <p>
           (I) <span>Idea Description</span> - The first round, stronger your
@@ -64,7 +64,7 @@ const EventsContent = () => {
 
       <div className={styles["content-container"]}>
         <h1>
-          The House of Investors{" "}
+          The House of Investors
           <a
             target="_blank"
             rel="noreferrer"
@@ -75,14 +75,14 @@ const EventsContent = () => {
               <span>Register</span>
               <span>&#8599;</span>
             </button>
-          </a>{" "}
+          </a>
         </h1>
         <p>
-          Presenting “The House of Investors", a platform for the
+          Presenting <q>The House of Investors</q>, a platform for the
           entrepreneurship & wanna-be VCs enthusiasts out there. In this
-          competition, participants are supposed to step into investor's shoes,
+          competition, participants are supposed to step into investor&apos;s shoes,
           think like investors, create an investment pitch and record it for a
-          startup chosen from the provided decks.{" "}
+          startup chosen from the provided decks.
         </p>
       </div>
 
@@ -97,7 +97,7 @@ const EventsContent = () => {
 
       <div className={styles["content-container"]}>
         <h1>
-          Scam 2022{" "}
+          Scam 2022
           <a
             target="_blank"
             rel="noreferrer"
@@ -111,18 +111,18 @@ const EventsContent = () => {
           </a>
         </h1>
         <p>
-          Presenting “Scam 2022”, a platform for the stock market enthusiasts
-          out there, in association with StockGro. The online virtual trading
-          event will last for 5 trading days. The login information for the
-          trading account will be made available to the registered participants
-          only. Details regarding login and registration on the online platform
-          would be communicated via email. Participants will be ranked based on
-          their performances.
+          Presenting <q>Scam 2022</q>, a platform for the stock market
+          enthusiasts out there, in association with StockGro. The online
+          virtual trading event will last for 5 trading days. The login
+          information for the trading account will be made available to the
+          registered participants only. Details regarding login and registration
+          on the online platform would be communicated via email. Participants
+          will be ranked based on their performances.
         </p>
       </div>
       <div className={styles["content-container"]}>
         <h1>
-          QuizHunt{" "}
+          QuizHunt
           <a
             target="_blank"
             rel="noreferrer"
@@ -137,10 +137,11 @@ const EventsContent = () => {
         </h1>
         <p>
           The Entrepreneurship Cell of IIIT Nagpur in its second edition brings
-          to you the "QuizHunt", a platform for the business, entrepreneurship,
-          technology, and marketing enthusiasts out there. Solve questions, and
-          supercharge your competitive spirit for this trial of
-          entrepreneurship, technology, business, and marketing mastery.
+          to you the <q>QuizHunt</q>, a platform for the business,
+          entrepreneurship, technology, and marketing enthusiasts out there.
+          Solve questions, and supercharge your competitive spirit for this
+          trial of entrepreneurship, technology, business, and marketing
+          mastery.
         </p>
       </div>
       <div data-aos="zoom-in" className={styles["timeline-container"]}>
