@@ -12,19 +12,34 @@ const Home = () => {
       <Head>
         <title>ESUMMIT 2022 | IIITN</title>
         <meta name="title" content="Esummit 2021 | IIITN"></meta>
-        <meta name="description" content="E summit is Flagship event of IIITNagpur under the Innovation Council Club. "/>
-        <meta name="keywords" content="ACE, Esummit, Esummit 2021, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"/>
-        <meta name="robots" content="index, follow"/>
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta
+          name="description"
+          content="E summit is Flagship event of IIITNagpur under the Innovation Council Club. "
+        />
+        <meta
+          name="keywords"
+          content="ACE, Esummit, Esummit 2021, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English"></meta>
+        <meta
+          property="og:image"
+          content="https://esummit.vercel.app/_next/image?url=%2Flogos%2Flogo.png&w=384&q=75"
+        ></meta>
       </Head>
       <div>
         <Hero></Hero>
-        {
-          aboutSectionData.map(section=>{
-            return <AboutSection key={section.id} flexDirection={section.flexDirection} heading={section.heading} para={section.para}  ></AboutSection>
-          })
-        }
+        {aboutSectionData.map((section) => {
+          return (
+            <AboutSection
+              key={section.id}
+              flexDirection={section.flexDirection}
+              heading={section.heading}
+              para={section.para}
+            ></AboutSection>
+          );
+        })}
       </div>
       <EventsTimeline />
     </>
