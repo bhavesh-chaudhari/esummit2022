@@ -77,7 +77,7 @@ const TimelineOneMobile = () => {
             </div>
           </Chrono>
         </div>
-        <p className={styles["para2"]}>30th Jan</p>
+        <p className={styles["para2"]}>8th Feb</p>
       </div>
     );
 }

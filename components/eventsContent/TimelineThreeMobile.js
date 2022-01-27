@@ -11,7 +11,7 @@ const TimelineThreeMobile = () => {
     }];
     return (
       <div className={styles["timeline-3"]}>
-        <p className={styles["para1"]}> 29th Jan</p>
+        <p className={styles["para1"]}> 11th Feb</p>
         <div style={{ width: "100%", height: "90%", margin: "auto" }}>
           <Chrono
             items={items}
@@ -44,7 +44,7 @@ const TimelineThreeMobile = () => {
             </div>
           </Chrono>
         </div>
-        <p className={styles["para2"]}>30th Jan</p>
+        <p className={styles["para2"]}>12th Feb</p>
       </div>
     );
 }
