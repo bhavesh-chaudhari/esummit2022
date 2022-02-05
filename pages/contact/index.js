@@ -21,7 +21,7 @@ const contact = () => {
         />
         <meta
           name="keywords"
-          content="ACE, Esummit 2022, IIIT Nagpur, IIITN, Esummit Contacts, Ace student heads, ace leads, esummit 2021 team"
+          content="ACE, Esummit 2022, IIIT Nagpur, IIITN, Esummit Contacts, Ace student heads, ace leads, esummit 2022 team, esummit 2022 iiitn contact"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
