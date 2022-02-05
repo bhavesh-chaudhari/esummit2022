@@ -7,14 +7,14 @@ const events = () => {
     <>
       <Head>
         <title>ESUMMIT 2022 | EVENTS</title>
-        <meta name="title" content="Esummit 2021 | Events"></meta>
+        <meta name="title" content="ESUMMIT 2022 | EVENTS"></meta>
         <meta
           name="description"
-          content="E summit is Flagship event of IIITNagpur under the Innovation Council Club. "
+          content="E summit is Flagship event of IIIT Nagpur under the Innovation Council Club. "
         />
         <meta
           name="keywords"
-          content="ACE IIITN, ACE, Esummit 2021, IIIT Nagpur, Pitchers 3.0, QuizHunt, The House of Investors, Scam 2022, Esummit competitions"
+          content="ACE IIITN, ACE, Esummit 2022, IIIT Nagpur, Pitchers 3.0, QuizHunt, The House of Investors, Scam 2022, Esummit competitions"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

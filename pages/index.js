@@ -11,14 +11,14 @@ const Home = () => {
     <>
       <Head>
         <title>ESUMMIT 2022 | IIITN</title>
-        <meta name="title" content="Esummit 2021 | IIITN"></meta>
+        <meta name="title" content="ESUMMIT 2022 | IIITN"></meta>
         <meta
           name="description"
-          content="E summit is the Flagship event of IIITNagpur under the Innovation Council Club. "
+          content="E summit is the Flagship event of IIIT Nagpur under the Innovation Council Club. "
         />
         <meta
           name="keywords"
-          content="ACE, Esummit, Esummit 2021, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"
+          content="ACE, Esummit, Esummit 2022, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

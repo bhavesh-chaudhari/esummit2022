@@ -12,6 +12,18 @@ const sponsors = () => {
     <>
       <Head>
         <title>ESUMMIT 2022 | SPONSORS</title>
+        <meta name="title" content="Esummit 2022 | SPONSORS"></meta>
+        <meta
+          name="description"
+          content="E summit is Flagship event of IIIT Nagpur under the Innovation Council Club. "
+        />
+        <meta
+          name="keywords"
+          content="ACE IIITN, ACE, Esummit 2022, IIIT Nagpur, Esummit competitions, Esummit Sponsors"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English"></meta>
       </Head>
       <div className={styles["sponsors-container"]}>
         <div className={styles["content"]}>
@@ -25,7 +37,7 @@ const sponsors = () => {
             <div className={styles["platform-sponsors-content"]}>
               {platformSponsors.map((sponsor) => {
                 return (
-                  <div key={sponsor.id} >
+                  <div key={sponsor.id}>
                     <div className={styles["image"]}>
                       <Image
                         layout="responsive"

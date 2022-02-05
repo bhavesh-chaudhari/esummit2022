@@ -14,14 +14,14 @@ const contact = () => {
     <>
       <Head>
         <title>ESUMMIT 2022 | CONTACT</title>
-        <meta name="title" content="Esummit 2021 | Contact"></meta>
+        <meta name="title" content="ESUMMIT 2022 | CONTACT"></meta>
         <meta
           name="description"
-          content="E summit is Flagship event of IIITNagpur under the Innovation Council Club. "
+          content="E summit is Flagship event of IIIT Nagpur under the Innovation Council Club. "
         />
         <meta
           name="keywords"
-          content="ACE, Esummit 2021, IIIT Nagpur, IIITN, Esummit Contacts, Ace student heads, ace leads, esummit 2021 team"
+          content="ACE, Esummit 2022, IIIT Nagpur, IIITN, Esummit Contacts, Ace student heads, ace leads, esummit 2021 team"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
