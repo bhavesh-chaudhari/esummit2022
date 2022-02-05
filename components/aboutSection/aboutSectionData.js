@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     heading: "About E Summit",
-    para: "E summit is the Flagship event of IIITNagpur under the Innovation Council Club. We bring together students, professors,new-age entrepreneurs, leaders, and investors on a common platform. We instill the spirit of innovation and entrepreneurship among them.",
+    para: "E summit is the Flagship event of IIIT Nagpur under the Innovation Council Club. We bring together students, professors, new-age entrepreneurs, leaders, and investors on a common platform. We instill the spirit of innovation and entrepreneurship among them.",
     flexDirection: "row",
   },
   {

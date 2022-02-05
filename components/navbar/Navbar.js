@@ -63,7 +63,7 @@ const Navbar = () => {
             >
               <Link scroll={true} href="/contact">Contact</Link>
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 setShow((prevState) => !prevState);
                 window.scrollTo(0, 0)
@@ -71,7 +71,7 @@ const Navbar = () => {
               className={router.pathname == "/sponsors" ? styles["active"] : ""}
             >
               <Link href="/sponsors">Sponsors</Link>
-            </li> */}
+            </li>
           </ul>
           <div className={styles["mobile-menu-logo"]}>
             <div className={styles["mobile-menu-logo-content"]}>

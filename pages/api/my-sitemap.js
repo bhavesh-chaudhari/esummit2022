@@ -1,12 +1,13 @@
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { Readable } = require("stream");
 
-export default async (req, res) => {
+const mysitemap = async (req, res) => {
   // An array with your links
   const links = [
-    { url: "/", changefreq: "daily", priority: 0.3 },
-    { url: "/events", changefreq: "daily", priority: 0.3 },
-    { url: "/contact", changefreq: "daily", priority: 0.3 },
+    { url: "/", changefreq: "daily", priority: 0.25 },
+    { url: "/events", changefreq: "daily", priority: 0.25 },
+    { url: "/contact", changefreq: "daily", priority: 0.25 },
+    { url: "/sponsors", changefreq: "daily", priority: 0.25 },
   ];
 
   // Create a stream to write to
@@ -22,3 +23,5 @@ export default async (req, res) => {
 
   res.end(xmlString);
 };
+
+export default mysitemap;
