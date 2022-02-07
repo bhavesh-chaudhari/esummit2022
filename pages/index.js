@@ -14,11 +14,11 @@ const Home = () => {
         <meta name="title" content="ESUMMIT 2022 | IIITN"></meta>
         <meta
           name="description"
-          content="E summit is the Flagship event of IIIT Nagpur under the Innovation Council Club. "
+          content="E summit is the Flagship event of IIIT Nagpur under the Innovation Council Club. We bring together students, professors, new-age entrepreneurs, leaders, and investors on a common platform. We instill the spirit of innovation and entrepreneurship among them."
         />
         <meta
           name="keywords"
-          content="ACE, Esummit, Esummit 2022, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"
+          content="ACE, Esummit, Esummit 2022 IIITN, IIITN, IIIT Nagpur, Entrepreneurship, Entrepreneurship Cell, Event"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

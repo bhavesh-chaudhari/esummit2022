@@ -17,7 +17,7 @@ const contact = () => {
         <meta name="title" content="ESUMMIT 2022 | CONTACT"></meta>
         <meta
           name="description"
-          content="E summit is Flagship event of IIIT Nagpur under the Innovation Council Club. "
+          content="E summit is the Flagship event of IIIT Nagpur under the Innovation Council Club. We bring together students, professors, new-age entrepreneurs, leaders, and investors on a common platform. We instill the spirit of innovation and entrepreneurship among them."
         />
         <meta
           name="keywords"
