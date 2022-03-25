@@ -1,3 +1,1 @@
-<svg class="blue-mask" width="1366" height="673" viewBox="0 0 1366 673" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M600 516C488 568 240.649 674.891 0.5 672L-1 0H1366V424C1366 424 1222 516 1120 502C1018 488 712 464 600 516Z" fill="#CFFAFE"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="673" fill="none" class="blue-mask" viewBox="0 0 1366 673"><path fill="#CFFAFE" d="M600 516C488 568 240.649 674.891 0.5 672L-1 0H1366V424C1366 424 1222 516 1120 502C1018 488 712 464 600 516Z"/></svg>
